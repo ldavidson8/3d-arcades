@@ -1,0 +1,33 @@
+{
+  "name": "audio-visualizer-2",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.3",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.1.3",
+    "typescript": "^5.8.2",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.5",
+    "@react-three/fiber": "^9.1.1",
+    "@tanstack/react-router": "^1.114.34",
+    "@tanstack/react-router-devtools": "^1.114.34",
+    "@tanstack/react-start": "^1.114.34",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.175.0",
+    "vinxi": "^0.5.3",
+    "zod": "^3.24.2"
+  }
+}
